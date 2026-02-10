@@ -1,0 +1,20 @@
+[2026-01-29T16:31:19.992+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-01-29T16:31:20.010+0530] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_system_pipeline_v3.upload_daily_csv_to_hdfs scheduled__2026-01-01T00:00:00+00:00 [queued]>
+[2026-01-29T16:31:20.017+0530] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_system_pipeline_v3.upload_daily_csv_to_hdfs scheduled__2026-01-01T00:00:00+00:00 [queued]>
+[2026-01-29T16:31:20.018+0530] {taskinstance.py:2884} INFO - Starting attempt 5 of 8
+[2026-01-29T16:31:20.031+0530] {taskinstance.py:2907} INFO - Executing <Task(BashOperator): upload_daily_csv_to_hdfs> on 2026-01-01 00:00:00+00:00
+[2026-01-29T16:31:20.036+0530] {standard_task_runner.py:72} INFO - Started process 41415 to run task
+[2026-01-29T16:31:20.042+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'weather_system_pipeline_v3', 'upload_daily_csv_to_hdfs', 'scheduled__2026-01-01T00:00:00+00:00', '--job-id', '159', '--raw', '--subdir', 'DAGS_FOLDER/dag_new_1.py', '--cfg-path', '/tmp/tmpo0cnvb7_']
+[2026-01-29T16:31:20.044+0530] {standard_task_runner.py:105} INFO - Job 159: Subtask upload_daily_csv_to_hdfs
+[2026-01-29T16:31:20.083+0530] {task_command.py:467} INFO - Running <TaskInstance: weather_system_pipeline_v3.upload_daily_csv_to_hdfs scheduled__2026-01-01T00:00:00+00:00 [running]> on host Aishwarya92848DBDA
+[2026-01-29T16:31:20.146+0530] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Aishwarya' AIRFLOW_CTX_DAG_ID='weather_system_pipeline_v3' AIRFLOW_CTX_TASK_ID='upload_daily_csv_to_hdfs' AIRFLOW_CTX_EXECUTION_DATE='2026-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-01T00:00:00+00:00'
+[2026-01-29T16:31:20.147+0530] {taskinstance.py:740} INFO - ::endgroup::
+[2026-01-29T16:31:20.160+0530] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-01-29T16:31:20.160+0530] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', '\n        hadoop fs -appendToFile         /home/hp/Desktop/Bigdata_project/BigData-Project/weather_today.csv         /weather/data/raw_data/weather_dataset.csv\n         ']
+[2026-01-29T16:31:20.171+0530] {subprocess.py:99} INFO - Output:
+[2026-01-29T16:31:22.219+0530] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-01-29T16:31:22.244+0530] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-01-29T16:31:22.244+0530] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=weather_system_pipeline_v3, task_id=upload_daily_csv_to_hdfs, run_id=scheduled__2026-01-01T00:00:00+00:00, execution_date=20260101T000000, start_date=20260129T110120, end_date=20260129T110122
+[2026-01-29T16:31:22.301+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-01-29T16:31:22.323+0530] {taskinstance.py:3924} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-29T16:31:22.326+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

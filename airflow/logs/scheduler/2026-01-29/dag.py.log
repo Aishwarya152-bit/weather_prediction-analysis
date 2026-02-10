@@ -1,0 +1,725 @@
+[2026-01-29T19:55:07.212+0530] {processor.py:186} INFO - Started process (PID=102322) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:55:07.213+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T19:55:07.216+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:55:07.215+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:55:07.220+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:55:07.219+0530] {dagbag.py:387} ERROR - Failed to import: /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/hp/Desktop/Bigdata_project/BigData-Project/airflow-venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py", line 13
+    dag_id="weather_system_pipeline_finally"
+           ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2026-01-29T19:55:07.221+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:55:07.239+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.034 seconds
+[2026-01-29T19:56:02.958+0530] {processor.py:186} INFO - Started process (PID=103162) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:56:02.959+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T19:56:02.962+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:02.961+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:56:02.975+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:56:03.169+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:03.169+0530] {override.py:1930} INFO - Created Permission View: can read on DAG:weather_system_pipeline_finally
+[2026-01-29T19:56:03.180+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:03.179+0530] {override.py:1930} INFO - Created Permission View: can edit on DAG:weather_system_pipeline_finally
+[2026-01-29T19:56:03.187+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:03.186+0530] {override.py:1930} INFO - Created Permission View: can delete on DAG:weather_system_pipeline_finally
+[2026-01-29T19:56:03.197+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:03.196+0530] {override.py:1930} INFO - Created Permission View: can read on DAG Run:weather_system_pipeline_finally
+[2026-01-29T19:56:03.204+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:03.203+0530] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:weather_system_pipeline_finally
+[2026-01-29T19:56:03.211+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:03.211+0530] {override.py:1930} INFO - Created Permission View: can create on DAG Run:weather_system_pipeline_finally
+[2026-01-29T19:56:03.218+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:03.218+0530] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:weather_system_pipeline_finally
+[2026-01-29T19:56:03.219+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:03.219+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T19:56:03.229+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:03.229+0530] {dag.py:3262} INFO - Creating ORM DAG for weather_system_pipeline_finally
+[2026-01-29T19:56:03.240+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:56:03.240+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-28 00:00:00+00:00, run_after=2026-01-29 00:00:00+00:00
+[2026-01-29T19:56:03.257+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.307 seconds
+[2026-01-29T19:58:38.581+0530] {processor.py:186} INFO - Started process (PID=105764) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:58:38.582+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T19:58:38.584+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:58:38.584+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:58:38.597+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:58:38.619+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:58:38.619+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T19:58:38.640+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:58:38.640+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-28 00:00:00+00:00, run_after=2026-01-29 00:00:00+00:00
+[2026-01-29T19:58:38.663+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.089 seconds
+[2026-01-29T19:59:30.978+0530] {processor.py:186} INFO - Started process (PID=106115) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:59:30.980+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T19:59:30.982+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:59:30.981+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:59:30.990+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:59:31.016+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:59:31.015+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T19:59:31.035+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:59:31.035+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T19:59:31.054+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.083 seconds
+[2026-01-29T19:59:47.837+0530] {processor.py:186} INFO - Started process (PID=106447) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:59:47.839+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T19:59:47.841+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:59:47.840+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:59:47.849+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T19:59:47.873+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:59:47.872+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T19:59:47.892+0530] {logging_mixin.py:190} INFO - [2026-01-29T19:59:47.891+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T19:59:47.909+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.079 seconds
+[2026-01-29T20:02:15.207+0530] {processor.py:186} INFO - Started process (PID=108694) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:02:15.208+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:02:15.209+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:02:15.209+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:02:15.216+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:02:15.235+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:02:15.235+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:02:15.254+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:02:15.254+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:02:15.269+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.068 seconds
+[2026-01-29T20:03:36.124+0530] {processor.py:186} INFO - Started process (PID=110675) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:03:36.125+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:03:36.126+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:03:36.126+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:03:36.132+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:03:36.151+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:03:36.151+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:03:36.165+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:03:36.165+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:03:36.179+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.060 seconds
+[2026-01-29T20:04:44.392+0530] {processor.py:186} INFO - Started process (PID=112020) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:04:44.399+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:04:44.404+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:04:44.404+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:04:44.412+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:04:44.435+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:04:44.434+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:04:44.453+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:04:44.453+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:04:44.472+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:05:15.158+0530] {processor.py:186} INFO - Started process (PID=112093) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:05:15.164+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:05:15.166+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:05:15.166+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:05:15.175+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:05:15.199+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:05:15.198+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:05:15.218+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:05:15.217+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:05:15.237+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:05:45.568+0530] {processor.py:186} INFO - Started process (PID=112152) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:05:45.575+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:05:45.576+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:05:45.576+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:05:45.584+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:05:45.609+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:05:45.609+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:05:45.629+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:05:45.629+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:05:45.648+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.087 seconds
+[2026-01-29T20:06:15.939+0530] {processor.py:186} INFO - Started process (PID=112224) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:06:15.946+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:06:15.948+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:06:15.947+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:06:15.953+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:06:15.971+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:06:15.971+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:06:15.986+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:06:15.985+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:06:16.001+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.068 seconds
+[2026-01-29T20:06:46.324+0530] {processor.py:186} INFO - Started process (PID=112286) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:06:46.331+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:06:46.333+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:06:46.332+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:06:46.341+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:06:46.365+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:06:46.365+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:06:46.384+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:06:46.384+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:06:46.402+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.085 seconds
+[2026-01-29T20:07:16.603+0530] {processor.py:186} INFO - Started process (PID=112352) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:07:16.610+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:07:16.611+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:07:16.611+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:07:16.617+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:07:16.636+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:07:16.636+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:07:16.653+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:07:16.652+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:07:16.669+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.070 seconds
+[2026-01-29T20:07:46.902+0530] {processor.py:186} INFO - Started process (PID=112412) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:07:46.904+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:07:46.906+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:07:46.906+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:07:46.914+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:07:46.938+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:07:46.938+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:07:46.957+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:07:46.957+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:07:46.974+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.079 seconds
+[2026-01-29T20:08:17.220+0530] {processor.py:186} INFO - Started process (PID=112482) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:08:17.226+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:08:17.228+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:08:17.227+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:08:17.236+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:08:17.260+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:08:17.260+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:08:17.280+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:08:17.280+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:08:17.301+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.089 seconds
+[2026-01-29T20:08:47.534+0530] {processor.py:186} INFO - Started process (PID=112546) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:08:47.535+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:08:47.537+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:08:47.536+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:08:47.545+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:08:47.570+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:08:47.570+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:08:47.590+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:08:47.590+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:08:47.609+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.083 seconds
+[2026-01-29T20:09:17.897+0530] {processor.py:186} INFO - Started process (PID=112616) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:09:17.903+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:09:17.905+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:09:17.905+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:09:17.913+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:09:17.935+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:09:17.935+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:09:17.953+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:09:17.952+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:09:17.970+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.080 seconds
+[2026-01-29T20:09:48.200+0530] {processor.py:186} INFO - Started process (PID=112672) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:09:48.201+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:09:48.204+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:09:48.203+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:09:48.212+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:09:48.236+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:09:48.236+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:09:48.256+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:09:48.255+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:09:48.275+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.082 seconds
+[2026-01-29T20:10:18.609+0530] {processor.py:186} INFO - Started process (PID=112742) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:10:18.611+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:10:18.613+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:10:18.612+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:10:18.621+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:10:18.645+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:10:18.645+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:10:18.665+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:10:18.665+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:10:18.683+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.082 seconds
+[2026-01-29T20:10:49.003+0530] {processor.py:186} INFO - Started process (PID=112815) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:10:49.004+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:10:49.006+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:10:49.005+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:10:49.013+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:10:49.038+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:10:49.037+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:10:49.058+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:10:49.057+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:10:49.076+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.080 seconds
+[2026-01-29T20:11:19.411+0530] {processor.py:186} INFO - Started process (PID=112905) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:11:19.417+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:11:19.420+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:11:19.419+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:11:19.429+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:11:19.454+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:11:19.454+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:11:19.475+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:11:19.474+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:11:19.494+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.090 seconds
+[2026-01-29T20:11:49.705+0530] {processor.py:186} INFO - Started process (PID=112968) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:11:49.712+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:11:49.713+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:11:49.713+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:11:49.722+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:11:49.746+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:11:49.746+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:11:49.766+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:11:49.766+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:11:49.785+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.087 seconds
+[2026-01-29T20:12:20.008+0530] {processor.py:186} INFO - Started process (PID=113289) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:12:20.009+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:12:20.012+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:12:20.011+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:12:20.020+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:12:20.045+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:12:20.044+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:12:20.064+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:12:20.064+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:12:20.083+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.082 seconds
+[2026-01-29T20:12:50.296+0530] {processor.py:186} INFO - Started process (PID=113354) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:12:50.302+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:12:50.305+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:12:50.304+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:12:50.313+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:12:50.339+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:12:50.339+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:12:50.360+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:12:50.359+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:12:50.380+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.092 seconds
+[2026-01-29T20:13:20.625+0530] {processor.py:186} INFO - Started process (PID=113920) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:13:20.626+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:13:20.628+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:13:20.627+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:13:20.638+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:13:20.669+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:13:20.669+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:13:20.692+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:13:20.691+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:13:20.714+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.098 seconds
+[2026-01-29T20:13:50.954+0530] {processor.py:186} INFO - Started process (PID=114183) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:13:50.955+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:13:50.957+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:13:50.957+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:13:50.967+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:13:50.993+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:13:50.993+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:13:51.015+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:13:51.015+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:13:51.037+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.092 seconds
+[2026-01-29T20:14:21.267+0530] {processor.py:186} INFO - Started process (PID=114443) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:14:21.268+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:14:21.270+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:14:21.269+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:14:21.279+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:14:21.307+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:14:21.307+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:14:21.328+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:14:21.328+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:14:21.348+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.090 seconds
+[2026-01-29T20:14:51.568+0530] {processor.py:186} INFO - Started process (PID=114619) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:14:51.574+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:14:51.576+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:14:51.575+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:14:51.584+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:14:51.608+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:14:51.608+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:14:51.628+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:14:51.628+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:14:51.646+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:15:21.883+0530] {processor.py:186} INFO - Started process (PID=114694) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:15:21.884+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:15:21.886+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:15:21.885+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:15:21.895+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:15:21.927+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:15:21.927+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:15:21.952+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:15:21.952+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:15:21.974+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.100 seconds
+[2026-01-29T20:15:52.191+0530] {processor.py:186} INFO - Started process (PID=114752) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:15:52.197+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:15:52.199+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:15:52.199+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:15:52.207+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:15:52.233+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:15:52.232+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:15:52.252+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:15:52.252+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:15:52.270+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.087 seconds
+[2026-01-29T20:16:22.941+0530] {processor.py:186} INFO - Started process (PID=114820) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:16:22.942+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:16:22.946+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:16:22.945+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:16:22.953+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:16:22.978+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:16:22.978+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:16:22.997+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:16:22.997+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:16:23.015+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.081 seconds
+[2026-01-29T20:16:53.394+0530] {processor.py:186} INFO - Started process (PID=114911) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:16:53.401+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:16:53.403+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:16:53.402+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:16:53.412+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:16:53.436+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:16:53.436+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:16:53.455+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:16:53.455+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:16:53.473+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:17:23.617+0530] {processor.py:186} INFO - Started process (PID=114988) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:17:23.618+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:17:23.619+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:17:23.619+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:17:23.627+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:17:23.651+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:17:23.651+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:17:23.670+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:17:23.670+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:17:23.689+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.079 seconds
+[2026-01-29T20:17:53.837+0530] {processor.py:186} INFO - Started process (PID=115049) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:17:53.843+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:17:53.847+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:17:53.846+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:17:53.854+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:17:53.878+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:17:53.878+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:17:53.898+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:17:53.898+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:17:53.916+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:18:24.014+0530] {processor.py:186} INFO - Started process (PID=115160) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:18:24.015+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:18:24.017+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:18:24.016+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:18:24.025+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:18:24.049+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:18:24.049+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:18:24.070+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:18:24.070+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:18:24.089+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.082 seconds
+[2026-01-29T20:18:54.244+0530] {processor.py:186} INFO - Started process (PID=115297) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:18:54.250+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:18:54.252+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:18:54.251+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:18:54.261+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:18:54.287+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:18:54.286+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:18:54.307+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:18:54.307+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:18:54.328+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.092 seconds
+[2026-01-29T20:19:24.477+0530] {processor.py:186} INFO - Started process (PID=115352) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:19:24.479+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:19:24.480+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:19:24.480+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:19:24.489+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:19:24.514+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:19:24.514+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:19:24.534+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:19:24.534+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:19:24.555+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:19:54.688+0530] {processor.py:186} INFO - Started process (PID=115430) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:19:54.690+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:19:54.691+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:19:54.691+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:19:54.699+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:19:54.725+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:19:54.724+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:19:54.744+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:19:54.744+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:19:54.763+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.082 seconds
+[2026-01-29T20:20:24.914+0530] {processor.py:186} INFO - Started process (PID=115485) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:20:24.920+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:20:24.923+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:20:24.923+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:20:24.931+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:20:24.955+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:20:24.955+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:20:24.975+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:20:24.975+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:20:24.994+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.087 seconds
+[2026-01-29T20:20:55.140+0530] {processor.py:186} INFO - Started process (PID=115562) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:20:55.141+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:20:55.143+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:20:55.142+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:20:55.151+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:20:55.178+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:20:55.178+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:20:55.199+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:20:55.198+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:20:55.220+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.088 seconds
+[2026-01-29T20:21:25.365+0530] {processor.py:186} INFO - Started process (PID=115612) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:21:25.371+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:21:25.373+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:21:25.373+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:21:25.381+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:21:25.407+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:21:25.406+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:21:25.427+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:21:25.427+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:21:25.447+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.089 seconds
+[2026-01-29T20:21:55.598+0530] {processor.py:186} INFO - Started process (PID=115671) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:21:55.599+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:21:55.602+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:21:55.601+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:21:55.613+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:21:55.647+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:21:55.647+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:21:55.679+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:21:55.679+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:21:55.699+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.112 seconds
+[2026-01-29T20:22:25.922+0530] {processor.py:186} INFO - Started process (PID=115742) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:22:25.924+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:22:25.926+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:22:25.925+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:22:25.934+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:22:25.960+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:22:25.959+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:22:25.981+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:22:25.980+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:22:26.001+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:22:56.149+0530] {processor.py:186} INFO - Started process (PID=115820) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:22:56.156+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:22:56.157+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:22:56.157+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:22:56.165+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:22:56.190+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:22:56.190+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:22:56.210+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:22:56.209+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:22:56.228+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.087 seconds
+[2026-01-29T20:23:26.372+0530] {processor.py:186} INFO - Started process (PID=115920) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:23:26.378+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:23:26.381+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:23:26.381+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:23:26.390+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:23:26.415+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:23:26.415+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:23:26.436+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:23:26.436+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:23:26.456+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.092 seconds
+[2026-01-29T20:25:17.824+0530] {processor.py:186} INFO - Started process (PID=116165) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:25:17.830+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:25:17.833+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:25:17.833+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:25:17.841+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:25:17.866+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:25:17.865+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:25:17.885+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:25:17.885+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:25:17.904+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.087 seconds
+[2026-01-29T20:25:48.018+0530] {processor.py:186} INFO - Started process (PID=116362) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:25:48.019+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:25:48.020+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:25:48.020+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:25:48.030+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:25:48.055+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:25:48.055+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:25:48.076+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:25:48.076+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:25:48.098+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.088 seconds
+[2026-01-29T20:26:18.882+0530] {processor.py:186} INFO - Started process (PID=116528) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:26:18.888+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:26:18.890+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:26:18.890+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:26:18.898+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:26:18.922+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:26:18.922+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:26:18.942+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:26:18.942+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:26:18.963+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.089 seconds
+[2026-01-29T20:26:49.294+0530] {processor.py:186} INFO - Started process (PID=116602) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:26:49.295+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:26:49.297+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:26:49.296+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:26:49.305+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:26:49.330+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:26:49.329+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:26:49.349+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:26:49.349+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:26:49.370+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.083 seconds
+[2026-01-29T20:27:19.702+0530] {processor.py:186} INFO - Started process (PID=116679) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:27:19.708+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:27:19.710+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:27:19.710+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:27:19.718+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:27:19.743+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:27:19.743+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:27:19.763+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:27:19.763+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:27:19.781+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:27:50.382+0530] {processor.py:186} INFO - Started process (PID=116741) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:27:50.388+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:27:50.391+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:27:50.391+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:27:50.399+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:27:50.424+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:27:50.424+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:27:50.443+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:27:50.443+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:27:50.461+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.087 seconds
+[2026-01-29T20:28:20.536+0530] {processor.py:186} INFO - Started process (PID=116846) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:28:20.537+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:28:20.539+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:28:20.538+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:28:20.547+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:28:20.572+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:28:20.572+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:28:20.592+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:28:20.592+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:28:20.613+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.085 seconds
+[2026-01-29T20:28:50.890+0530] {processor.py:186} INFO - Started process (PID=116903) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:28:50.891+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:28:50.894+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:28:50.893+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:28:50.902+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:28:50.930+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:28:50.929+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:28:50.950+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:28:50.949+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:28:50.969+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.092 seconds
+[2026-01-29T20:29:21.287+0530] {processor.py:186} INFO - Started process (PID=117043) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:29:21.293+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:29:21.294+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:29:21.294+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:29:21.302+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:29:21.323+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:29:21.323+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:29:21.342+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:29:21.341+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:29:21.365+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.084 seconds
+[2026-01-29T20:29:51.448+0530] {processor.py:186} INFO - Started process (PID=117105) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:29:51.449+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:29:51.450+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:29:51.450+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:29:51.458+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:29:51.483+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:29:51.482+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:29:51.502+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:29:51.502+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:29:51.521+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.081 seconds
+[2026-01-29T20:30:22.081+0530] {processor.py:186} INFO - Started process (PID=117191) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:30:22.087+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:30:22.089+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:30:22.088+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:30:22.097+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:30:22.121+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:30:22.121+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:30:22.141+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:30:22.141+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:30:22.159+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:30:52.486+0530] {processor.py:186} INFO - Started process (PID=117338) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:30:52.487+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:30:52.488+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:30:52.488+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:30:52.497+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:30:52.522+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:30:52.522+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:30:52.543+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:30:52.542+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:30:52.562+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.084 seconds
+[2026-01-29T20:31:22.887+0530] {processor.py:186} INFO - Started process (PID=117483) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:31:22.894+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:31:22.895+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:31:22.895+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:31:22.904+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:31:22.928+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:31:22.928+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:31:22.947+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:31:22.947+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:31:22.966+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:31:53.295+0530] {processor.py:186} INFO - Started process (PID=117551) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:31:53.301+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:31:53.303+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:31:53.303+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:31:53.311+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:31:53.337+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:31:53.337+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:31:53.357+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:31:53.357+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:31:53.376+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.089 seconds
+[2026-01-29T20:32:23.690+0530] {processor.py:186} INFO - Started process (PID=117648) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:32:23.696+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:32:23.699+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:32:23.697+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:32:23.707+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:32:23.731+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:32:23.730+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:32:23.750+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:32:23.750+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:32:23.768+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.086 seconds
+[2026-01-29T20:32:54.106+0530] {processor.py:186} INFO - Started process (PID=117888) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:32:54.112+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:32:54.114+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:32:54.114+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:32:54.123+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:32:54.148+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:32:54.147+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:32:54.168+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:32:54.168+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:32:54.188+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.089 seconds
+[2026-01-29T20:33:24.521+0530] {processor.py:186} INFO - Started process (PID=117989) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:33:24.523+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:33:24.524+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:33:24.524+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:33:24.533+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:33:24.560+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:33:24.560+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:33:24.585+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:33:24.585+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:33:24.605+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.092 seconds
+[2026-01-29T20:33:54.925+0530] {processor.py:186} INFO - Started process (PID=118087) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:33:54.931+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:33:54.933+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:33:54.933+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:33:54.941+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:33:54.966+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:33:54.966+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:33:54.990+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:33:54.990+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:33:55.011+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.094 seconds
+[2026-01-29T20:34:25.219+0530] {processor.py:186} INFO - Started process (PID=118178) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:34:25.225+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:34:25.227+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:34:25.227+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:34:25.236+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:34:25.260+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:34:25.260+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:34:25.280+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:34:25.280+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:34:25.298+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.087 seconds
+[2026-01-29T20:34:55.507+0530] {processor.py:186} INFO - Started process (PID=118247) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:34:55.508+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:34:55.510+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:34:55.509+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:34:55.519+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:34:55.545+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:34:55.544+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:34:55.565+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:34:55.565+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:34:55.584+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.085 seconds
+[2026-01-29T20:35:25.820+0530] {processor.py:186} INFO - Started process (PID=118419) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:35:25.822+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:35:25.823+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:35:25.823+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:35:25.833+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:35:25.860+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:35:25.860+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:35:25.882+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:35:25.882+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:35:25.903+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.091 seconds
+[2026-01-29T20:35:56.100+0530] {processor.py:186} INFO - Started process (PID=118522) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:35:56.101+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:35:56.103+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:35:56.102+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:35:56.111+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:35:56.137+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:35:56.137+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:35:56.158+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:35:56.157+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:35:56.177+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.085 seconds
+[2026-01-29T20:36:26.365+0530] {processor.py:186} INFO - Started process (PID=118601) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:36:26.367+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:36:26.368+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:36:26.367+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:36:26.374+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:36:26.394+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:36:26.393+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:36:26.409+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:36:26.409+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:36:26.424+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.065 seconds
+[2026-01-29T20:36:56.671+0530] {processor.py:186} INFO - Started process (PID=118691) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:36:56.672+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:36:56.674+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:36:56.673+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:36:56.684+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:36:56.711+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:36:56.710+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:36:56.733+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:36:56.733+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:36:56.754+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.091 seconds
+[2026-01-29T20:37:26.976+0530] {processor.py:186} INFO - Started process (PID=118791) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:37:26.982+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:37:26.984+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:37:26.983+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:37:26.992+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:37:27.016+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:37:27.016+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:37:27.036+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:37:27.035+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:37:27.055+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.087 seconds
+[2026-01-29T20:37:57.282+0530] {processor.py:186} INFO - Started process (PID=118854) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:37:57.283+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T20:37:57.286+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:37:57.285+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:37:57.294+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T20:37:57.319+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:37:57.319+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T20:37:57.340+0530] {logging_mixin.py:190} INFO - [2026-01-29T20:37:57.340+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T20:37:57.359+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.085 seconds
+[2026-01-29T22:44:54.019+0530] {processor.py:186} INFO - Started process (PID=119084) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T22:44:54.025+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T22:44:54.027+0530] {logging_mixin.py:190} INFO - [2026-01-29T22:44:54.027+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T22:44:54.035+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T22:44:54.061+0530] {logging_mixin.py:190} INFO - [2026-01-29T22:44:54.061+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T22:44:54.081+0530] {logging_mixin.py:190} INFO - [2026-01-29T22:44:54.081+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T22:44:54.100+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.089 seconds
+[2026-01-29T22:45:25.124+0530] {processor.py:186} INFO - Started process (PID=119284) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T22:45:25.130+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T22:45:25.132+0530] {logging_mixin.py:190} INFO - [2026-01-29T22:45:25.131+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T22:45:25.141+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T22:45:25.166+0530] {logging_mixin.py:190} INFO - [2026-01-29T22:45:25.165+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T22:45:25.185+0530] {logging_mixin.py:190} INFO - [2026-01-29T22:45:25.185+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T22:45:25.205+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.089 seconds
+[2026-01-29T23:27:16.023+0530] {processor.py:186} INFO - Started process (PID=131368) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:27:16.024+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:27:16.026+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:27:16.025+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:27:16.035+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:27:16.052+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:27:16.051+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:27:16.067+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:27:16.066+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:27:16.083+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.065 seconds
+[2026-01-29T23:27:46.284+0530] {processor.py:186} INFO - Started process (PID=131472) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:27:46.290+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:27:46.292+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:27:46.292+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:27:46.302+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:27:46.318+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:27:46.318+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:27:46.334+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:27:46.334+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:27:46.429+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.150 seconds
+[2026-01-29T23:28:16.929+0530] {processor.py:186} INFO - Started process (PID=131934) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:28:16.935+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:28:16.939+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:28:16.938+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:28:16.954+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:28:16.978+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:28:16.978+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:28:17.092+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:28:17.091+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:28:17.116+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.194 seconds
+[2026-01-29T23:29:13.679+0530] {processor.py:186} INFO - Started process (PID=132683) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:29:13.680+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:29:13.682+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:29:13.682+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:29:13.693+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:29:13.710+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:29:13.709+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:29:13.803+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:29:13.802+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:29:13.822+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.148 seconds
+[2026-01-29T23:29:44.718+0530] {processor.py:186} INFO - Started process (PID=133226) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:29:44.724+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:29:44.726+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:29:44.726+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:29:44.736+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:29:44.753+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:29:44.753+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:29:44.845+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:29:44.845+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:29:44.865+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.152 seconds
+[2026-01-29T23:30:14.975+0530] {processor.py:186} INFO - Started process (PID=133493) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:30:14.981+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:30:14.983+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:30:14.983+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:30:14.993+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:30:15.093+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:30:15.093+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:30:15.108+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:30:15.108+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:30:15.128+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.158 seconds
+[2026-01-29T23:30:45.226+0530] {processor.py:186} INFO - Started process (PID=133661) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:30:45.232+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:30:45.235+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:30:45.235+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:30:45.245+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:30:45.337+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:30:45.337+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:30:45.351+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:30:45.351+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:30:45.369+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.149 seconds
+[2026-01-29T23:31:15.504+0530] {processor.py:186} INFO - Started process (PID=133729) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:31:15.510+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:31:15.512+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:31:15.511+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:31:15.601+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:31:15.614+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:31:15.614+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:31:15.628+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:31:15.628+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:31:15.648+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.149 seconds
+[2026-01-29T23:31:45.841+0530] {processor.py:186} INFO - Started process (PID=133955) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:31:45.847+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:31:45.850+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:31:45.849+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:31:45.861+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:31:45.879+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:31:45.878+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:31:45.895+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:31:45.894+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:31:45.910+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.076 seconds
+[2026-01-29T23:32:15.990+0530] {processor.py:186} INFO - Started process (PID=134041) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:32:15.996+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:32:15.999+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:32:15.999+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:32:16.009+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:32:16.027+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:32:16.027+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:32:16.044+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:32:16.044+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:32:16.058+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.073 seconds
+[2026-01-29T23:32:46.170+0530] {processor.py:186} INFO - Started process (PID=134307) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:32:46.176+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:32:46.178+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:32:46.178+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:32:46.188+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:32:46.205+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:32:46.205+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:32:46.224+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:32:46.223+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:32:46.240+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.076 seconds
+[2026-01-29T23:33:16.342+0530] {processor.py:186} INFO - Started process (PID=134434) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:33:16.349+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:33:16.351+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:33:16.350+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:33:16.361+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:33:16.379+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:33:16.378+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:33:16.394+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:33:16.394+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:33:16.409+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.072 seconds
+[2026-01-29T23:33:46.515+0530] {processor.py:186} INFO - Started process (PID=134490) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:33:46.522+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:33:46.524+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:33:46.524+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:33:46.535+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:33:46.552+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:33:46.551+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:33:46.568+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:33:46.568+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:33:46.583+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.074 seconds
+[2026-01-29T23:34:16.689+0530] {processor.py:186} INFO - Started process (PID=134559) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:34:16.695+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:34:16.698+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:34:16.697+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:34:16.708+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:34:16.724+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:34:16.724+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:34:16.740+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:34:16.740+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:34:16.754+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.070 seconds
+[2026-01-29T23:34:46.862+0530] {processor.py:186} INFO - Started process (PID=134619) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:34:46.868+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:34:46.870+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:34:46.870+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:34:46.880+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:34:46.897+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:34:46.897+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:34:46.913+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:34:46.912+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:34:46.928+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.073 seconds
+[2026-01-29T23:35:17.043+0530] {processor.py:186} INFO - Started process (PID=134736) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:35:17.044+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:35:17.046+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:35:17.045+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:35:17.056+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:35:17.072+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:35:17.072+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:35:17.088+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:35:17.087+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:35:17.103+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.066 seconds
+[2026-01-29T23:35:47.215+0530] {processor.py:186} INFO - Started process (PID=134791) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:35:47.221+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:35:47.224+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:35:47.223+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:35:47.235+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:35:47.252+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:35:47.252+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:35:47.268+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:35:47.268+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:35:47.283+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.074 seconds
+[2026-01-29T23:36:20.918+0530] {processor.py:186} INFO - Started process (PID=134877) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:36:20.919+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:36:20.921+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:36:20.920+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:36:20.931+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:36:20.948+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:36:20.947+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:36:20.963+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:36:20.963+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:36:20.979+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.066 seconds
+[2026-01-29T23:36:51.163+0530] {processor.py:186} INFO - Started process (PID=135056) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:36:51.169+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:36:51.171+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:36:51.171+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:36:51.182+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:36:51.199+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:36:51.199+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:36:51.216+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:36:51.216+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:36:51.309+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.152 seconds
+[2026-01-29T23:37:21.649+0530] {processor.py:186} INFO - Started process (PID=135276) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:37:21.655+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:37:21.658+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:37:21.657+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:37:21.668+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:37:21.687+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:37:21.687+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:37:21.788+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:37:21.788+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:37:21.810+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.166 seconds
+[2026-01-29T23:37:52.128+0530] {processor.py:186} INFO - Started process (PID=135395) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:37:52.135+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:37:52.138+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:37:52.137+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:37:52.148+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:37:52.164+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:37:52.164+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:37:52.258+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:37:52.258+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:37:52.277+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.154 seconds
+[2026-01-29T23:38:22.609+0530] {processor.py:186} INFO - Started process (PID=135577) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:38:22.616+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:38:22.618+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:38:22.617+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:38:22.628+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:38:22.727+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:38:22.726+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:38:22.740+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:38:22.740+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:38:22.760+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.156 seconds
+[2026-01-29T23:38:53.082+0530] {processor.py:186} INFO - Started process (PID=135686) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:38:53.083+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:38:53.085+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:38:53.085+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:38:53.097+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:38:53.191+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:38:53.191+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:38:53.205+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:38:53.205+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:38:53.225+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.148 seconds
+[2026-01-29T23:39:23.522+0530] {processor.py:186} INFO - Started process (PID=135810) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:39:23.528+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:39:23.614+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:39:23.614+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:39:23.621+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:39:23.635+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:39:23.635+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:39:23.649+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:39:23.649+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:39:23.668+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.151 seconds
+[2026-01-29T23:39:53.986+0530] {processor.py:186} INFO - Started process (PID=135983) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:39:53.992+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:39:53.994+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:39:53.993+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:39:54.004+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:39:54.021+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:39:54.021+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:39:54.037+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:39:54.036+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:39:54.052+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.071 seconds
+[2026-01-29T23:40:24.351+0530] {processor.py:186} INFO - Started process (PID=136204) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:40:24.352+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:40:24.354+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:40:24.353+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:40:24.366+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:40:24.384+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:40:24.384+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:40:24.403+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:40:24.403+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:40:24.420+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.075 seconds
+[2026-01-29T23:40:54.897+0530] {processor.py:186} INFO - Started process (PID=136413) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:40:54.898+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:40:54.901+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:40:54.901+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:40:54.916+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:40:54.940+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:40:54.939+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:40:54.964+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:40:54.964+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:40:54.984+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.095 seconds
+[2026-01-29T23:41:25.378+0530] {processor.py:186} INFO - Started process (PID=136601) to work on /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:41:25.385+0530] {processor.py:914} INFO - Processing file /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py for tasks to queue
+[2026-01-29T23:41:25.387+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:41:25.387+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:41:25.401+0530] {processor.py:925} INFO - DAG(s) 'weather_system_pipeline_finally' retrieved from /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py
+[2026-01-29T23:41:25.423+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:41:25.423+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-29T23:41:25.445+0530] {logging_mixin.py:190} INFO - [2026-01-29T23:41:25.445+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_system_pipeline_finally to 2026-01-29 00:00:00+00:00, run_after=2026-01-30 00:00:00+00:00
+[2026-01-29T23:41:25.464+0530] {processor.py:208} INFO - Processing /home/hp/Desktop/Bigdata_project/BigData-Project/airflow/dags/dag.py took 0.092 seconds
